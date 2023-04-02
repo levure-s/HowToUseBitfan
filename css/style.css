@@ -33,6 +33,7 @@ img {
 .index {
   width: 100%;
   padding: 1.5em;
+  box-sizing: border-box;
 }
 .index li {
   padding-bottom: 1em;
@@ -59,6 +60,9 @@ img {
 .step {
   width: 30%;
   padding-bottom: 3em;
+}
+.step img {
+  padding-bottom: 0.5em;
 }
 .link {
   padding: 1.5em;
