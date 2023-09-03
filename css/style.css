@@ -76,7 +76,14 @@ img {
 
 @media (max-width: 650px) {
   .step {
-    width: 80%;
+    width: 100%;
+    text-align: center;
+  }
+  .step img {
+    max-width: 80%;
+  }
+  .step p {
+    text-align: left;
   }
 }
 @media (max-width: 430px) {
